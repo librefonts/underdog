@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ttFont ttLibVersion="2.4">
+
+  <GSUB>
+    <Version value="1.0"/>
+    <ScriptList>
+      <!-- ScriptCount=2 -->
+      <ScriptRecord index="0">
+        <ScriptTag value="cyrl"/>
+        <Script>
+          <DefaultLangSys>
+            <ReqFeatureIndex value="65535"/>
+            <!-- FeatureCount=2 -->
+            <FeatureIndex index="0" value="1"/>
+            <FeatureIndex index="1" value="3"/>
+          </DefaultLangSys>
+          <!-- LangSysCount=0 -->
+        </Script>
+      </ScriptRecord>
+      <ScriptRecord index="1">
+        <ScriptTag value="latn"/>
+        <Script>
+          <DefaultLangSys>
+            <ReqFeatureIndex value="65535"/>
+            <!-- FeatureCount=3 -->
+            <FeatureIndex index="0" value="0"/>
+            <FeatureIndex index="1" value="2"/>
+            <FeatureIndex index="2" value="4"/>
+          </DefaultLangSys>
+          <!-- LangSysCount=0 -->
+        </Script>
+      </ScriptRecord>
+    </ScriptList>
+    <FeatureList>
+      <!-- FeatureCount=5 -->
+      <FeatureRecord index="0">
+        <FeatureTag value="aalt"/>
+        <Feature>
+          <!-- LookupCount=2 -->
+          <LookupListIndex index="0" value="0"/>
+          <LookupListIndex index="1" value="1"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="1">
+        <FeatureTag value="calt"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="5"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="2">
+        <FeatureTag value="calt"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="4"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="3">
+        <FeatureTag value="salt"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="3"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="4">
+        <FeatureTag value="salt"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="2"/>
+        </Feature>
+      </FeatureRecord>
+    </FeatureList>
+    <LookupList>
+      <!-- LookupCount=6 -->
+      <Lookup index="0">
+        <LookupType value="1"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <SingleSubst index="0" Format="2">
+          <Substitution in="A" out="A.alt"/>
+          <Substitution in="C" out="C.alt"/>
+          <Substitution in="D" out="D.alt"/>
+          <Substitution in="E" out="E.alt"/>
+          <Substitution in="G" out="G.alt"/>
+          <Substitution in="K" out="K.alt"/>
+          <Substitution in="L" out="L.alt"/>
+          <Substitution in="afii10017" out="afii10017.alt"/>
+          <Substitution in="afii10022" out="afii10022.alt"/>
+          <Substitution in="afii10028" out="afii10028.alt"/>
+          <Substitution in="afii10035" out="afii10035.alt"/>
+          <Substitution in="afii10038" out="afii10038.alt"/>
+          <Substitution in="afii10070" out="afii10070.alt"/>
+          <Substitution in="afii10071" out="afii10071.alt"/>
+          <Substitution in="afii10080" out="afii10080.alt"/>
+          <Substitution in="afii10085" out="afii10085.alt"/>
+          <Substitution in="e" out="e.alt"/>
+          <Substitution in="g" out="g.alt"/>
+          <Substitution in="k" out="k.alt"/>
+          <Substitution in="o" out="o.alt"/>
+          <Substitution in="q" out="q.alt"/>
+          <Substitution in="r" out="r.alt"/>
+          <Substitution in="y" out="y.alt"/>
+        </SingleSubst>
+      </Lookup>
+      <Lookup index="1">
+        <LookupType value="3"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <AlternateSubst index="0" Format="1">
+          <AlternateSet glyph="O">
+            <Alternate glyph="O.alt"/>
+            <Alternate glyph="O.alt2"/>
+          </AlternateSet>
+          <AlternateSet glyph="P">
+            <Alternate glyph="P.alt"/>
+            <Alternate glyph="P.alt2"/>
+          </AlternateSet>
+          <AlternateSet glyph="R">
+            <Alternate glyph="R.alt"/>
+            <Alternate glyph="R.alt2"/>
+          </AlternateSet>
+          <AlternateSet glyph="afii10032">
+            <Alternate glyph="afii10032.alt"/>
+            <Alternate glyph="afii10032.alt2"/>
+          </AlternateSet>
+          <AlternateSet glyph="afii10034">
+            <Alternate glyph="afii10034.alt"/>
+            <Alternate glyph="afii10034.alt2"/>
+          </AlternateSet>
+        </AlternateSubst>
+      </Lookup>
+      <Lookup index="2">
+        <LookupType value="1"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <SingleSubst index="0" Format="2">
+          <Substitution in="A" out="A.alt"/>
+          <Substitution in="C" out="C.alt"/>
+          <Substitution in="D" out="D.alt"/>
+          <Substitution in="E" out="E.alt"/>
+          <Substitution in="G" out="G.alt"/>
+          <Substitution in="K" out="K.alt"/>
+          <Substitution in="L" out="L.alt"/>
+          <Substitution in="O" out="O.alt"/>
+          <Substitution in="P" out="P.alt"/>
+          <Substitution in="R" out="R.alt"/>
+          <Substitution in="afii10017" out="afii10017.alt"/>
+          <Substitution in="afii10022" out="afii10022.alt"/>
+          <Substitution in="afii10028" out="afii10028.alt"/>
+          <Substitution in="afii10032" out="afii10032.alt"/>
+          <Substitution in="afii10034" out="afii10034.alt"/>
+          <Substitution in="afii10035" out="afii10035.alt"/>
+          <Substitution in="afii10038" out="afii10038.alt"/>
+          <Substitution in="afii10070" out="afii10070.alt"/>
+          <Substitution in="afii10071" out="afii10071.alt"/>
+          <Substitution in="afii10080" out="afii10080.alt"/>
+          <Substitution in="afii10085" out="afii10085.alt"/>
+          <Substitution in="e" out="e.alt"/>
+          <Substitution in="g" out="g.alt"/>
+          <Substitution in="k" out="k.alt"/>
+          <Substitution in="o" out="o.alt"/>
+          <Substitution in="q" out="q.alt"/>
+          <Substitution in="r" out="r.alt"/>
+          <Substitution in="y" out="y.alt"/>
+        </SingleSubst>
+      </Lookup>
+      <Lookup index="3">
+        <LookupType value="1"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <SingleSubst index="0" Format="2">
+          <Substitution in="A" out="A.alt"/>
+          <Substitution in="C" out="C.alt"/>
+          <Substitution in="D" out="D.alt"/>
+          <Substitution in="E" out="E.alt"/>
+          <Substitution in="G" out="G.alt"/>
+          <Substitution in="K" out="K.alt"/>
+          <Substitution in="L" out="L.alt"/>
+          <Substitution in="O" out="O.alt"/>
+          <Substitution in="P" out="P.alt"/>
+          <Substitution in="R" out="R.alt"/>
+          <Substitution in="afii10017" out="afii10017.alt"/>
+          <Substitution in="afii10022" out="afii10022.alt"/>
+          <Substitution in="afii10028" out="afii10028.alt"/>
+          <Substitution in="afii10032" out="afii10032.alt"/>
+          <Substitution in="afii10034" out="afii10034.alt"/>
+          <Substitution in="afii10035" out="afii10035.alt"/>
+          <Substitution in="afii10038" out="afii10038.alt"/>
+          <Substitution in="afii10070" out="afii10070.alt"/>
+          <Substitution in="afii10071" out="afii10071.alt"/>
+          <Substitution in="afii10080" out="afii10080.alt"/>
+          <Substitution in="afii10085" out="afii10085.alt"/>
+          <Substitution in="e" out="e.alt"/>
+          <Substitution in="g" out="g.alt"/>
+          <Substitution in="k" out="k.alt"/>
+          <Substitution in="o" out="o.alt"/>
+          <Substitution in="q" out="q.alt"/>
+          <Substitution in="r" out="r.alt"/>
+          <Substitution in="y" out="y.alt"/>
+        </SingleSubst>
+      </Lookup>
+      <Lookup index="4">
+        <LookupType value="3"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <AlternateSubst index="0" Format="1">
+          <AlternateSet glyph="O">
+            <Alternate glyph="O.alt"/>
+            <Alternate glyph="O.alt2"/>
+          </AlternateSet>
+          <AlternateSet glyph="P">
+            <Alternate glyph="P.alt"/>
+            <Alternate glyph="P.alt2"/>
+          </AlternateSet>
+          <AlternateSet glyph="R">
+            <Alternate glyph="R.alt"/>
+            <Alternate glyph="R.alt2"/>
+          </AlternateSet>
+          <AlternateSet glyph="afii10032">
+            <Alternate glyph="afii10032.alt"/>
+            <Alternate glyph="afii10032.alt2"/>
+          </AlternateSet>
+          <AlternateSet glyph="afii10034">
+            <Alternate glyph="afii10034.alt"/>
+            <Alternate glyph="afii10034.alt2"/>
+          </AlternateSet>
+        </AlternateSubst>
+      </Lookup>
+      <Lookup index="5">
+        <LookupType value="3"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <AlternateSubst index="0" Format="1">
+          <AlternateSet glyph="O">
+            <Alternate glyph="O.alt"/>
+            <Alternate glyph="O.alt2"/>
+          </AlternateSet>
+          <AlternateSet glyph="P">
+            <Alternate glyph="P.alt"/>
+            <Alternate glyph="P.alt2"/>
+          </AlternateSet>
+          <AlternateSet glyph="R">
+            <Alternate glyph="R.alt"/>
+            <Alternate glyph="R.alt2"/>
+          </AlternateSet>
+          <AlternateSet glyph="afii10032">
+            <Alternate glyph="afii10032.alt"/>
+            <Alternate glyph="afii10032.alt2"/>
+          </AlternateSet>
+          <AlternateSet glyph="afii10034">
+            <Alternate glyph="afii10034.alt"/>
+            <Alternate glyph="afii10034.alt2"/>
+          </AlternateSet>
+        </AlternateSubst>
+      </Lookup>
+    </LookupList>
+  </GSUB>
+
+</ttFont>
